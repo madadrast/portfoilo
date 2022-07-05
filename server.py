@@ -13,7 +13,7 @@ def page_html(page_name):
 
 
 def write_to_csv(data):
-    with open('./web server/database.csv' , mode='a',newline='' ) as database2:
+    with open('./database.csv' , mode='a',newline='' ) as database2:
         email = data["email"]
         subject = data["subject"]
         message = data["message"]
